@@ -66,7 +66,7 @@ Rather than a simple list of links, this portfolio tells a story: from zero prac
 
 <div align="center">
 
-[![🌐 Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-059669?style=for-the-badge&logoColor=white)](#)
+[![🌐 Live Demo](https://img.shields.io/badge/🌐%20Live%20Demo-059669?style=for-the-badge&logoColor=white)](https://yasirawaninfo-data.vercel.app/)
 [![📁 GitHub Repository](https://img.shields.io/badge/📁%20GitHub%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/YasirAwan4831/data-analyst-portfolio-dashboard)
 [![💼 Portfolio](https://img.shields.io/badge/💼%20Portfolio-2563EB?style=for-the-badge&logoColor=white)](https://yasirawaninfo.vercel.app)
 
