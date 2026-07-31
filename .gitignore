@@ -23,7 +23,6 @@
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
 
 # ignore files
 .next
