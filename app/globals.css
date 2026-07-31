@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #059669;
+  --primary-light: #10b981;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #059669; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #047857; }
+
+/* Typing cursor */
+.typing-cursor::after {
+  content: '|';
+  animation: blink 0.75s step-end infinite;
+  color: #059669;
+  margin-left: 2px;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Dot grid background pattern for hero */
+.dot-grid {
+  background-image: radial-gradient(circle, #d1fae5 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #059669 0%, #34d399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Skills marquee rows - pause on hover */
+.marquee-row:hover .animate-marquee,
+.marquee-row:hover .animate-marquee-reverse {
+  animation-play-state: paused;
+}
+
+/* Section divider */
+.section-divider {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(90deg, #059669, #34d399);
+  border-radius: 2px;
+}
+
+/* Card hover lift */
+.card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(5, 150, 105, 0.12);
+}
+
+/* Password input custom */
+input[type="password"]:focus {
+  outline: none;
+  border-color: #059669;
+  box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15);
+}
