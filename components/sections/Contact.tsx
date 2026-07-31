@@ -39,7 +39,7 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <span className="text-xs font-bold text-primary-600 tracking-widest uppercase mb-3 block">
-            Let's Connect
+            Let&#39;s Connect
           </span>
           <h2 className="text-4xl font-display font-extrabold text-gray-900 mb-4">Contact</h2>
           <div className="section-divider mx-auto mb-5" />
