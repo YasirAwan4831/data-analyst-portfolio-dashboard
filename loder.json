@@ -1,30 +1,97 @@
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Muhammad Yasir",
-  "alternateName": "YasirAwan4831",
-  "url": "https://yasirawaninfo-data.vercel.app",
-  "image": "https://yasirawaninfo-data.vercel.app/profile.png",
-  "jobTitle": "Data Analyst | Full Stack Web Developer | AI & Automation Enthusiast",
-  "description": "Data Analyst specializing in SQL, Python, Excel and Power BI. Full Stack Web Developer building modern web applications and interactive dashboards.",
-  "sameAs": [
-    "https://github.com/YasirAwan4831",
-    "https://www.linkedin.com/in/yasirawan4831",
-    "https://www.youtube.com/@YasirAwan4831"
-  ],
-  "knowsAbout": [
-    "SQL",
-    "Python",
-    "Power BI",
-    "Excel",
-    "Data Analytics",
-    "Business Intelligence",
-    "Dashboard Development",
-    "Next.js",
-    "TypeScript",
-    "React",
-    "MongoDB",
-    "Firebase",
-    "AI Automation"
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://yasirawaninfo-data.vercel.app/#person",
+      "name": "Muhammad Yasir",
+      "alternateName": "YasirAwan4831",
+      "url": "https://yasirawaninfo-data.vercel.app",
+      "image": "https://yasirawaninfo-data.vercel.app/profile.png",
+      "jobTitle": "Full Stack Web Developer | Data Analyst | Social Media Marketing Specialist | AI & Automation Enthusiast",
+      "description": "Full Stack Web Developer skilled in React, TypeScript, Next.js and modern backend technologies including Node.js, Express.js, MongoDB and Firebase. Also works as a Data Analyst using SQL, Python, Excel and Power BI to build interactive dashboards, and as a Social Media Marketing specialist managing brand growth, content strategy and audience engagement. Actively explores AI & Automation tools to build smart, efficient digital solutions.",
+      "sameAs": [
+        "https://github.com/YasirAwan4831",
+        "https://www.linkedin.com/in/yasirawan4831",
+        "https://www.youtube.com/@YasirAwan4831",
+        "https://yasirawaninfo.vercel.app",
+        "https://yasirawaninfo-ai.vercel.app"
+      ],
+      "knowsAbout": [
+        "SQL",
+        "Python",
+        "Power BI",
+        "Excel",
+        "Data Analytics",
+        "Business Intelligence",
+        "Dashboard Development",
+        "Full Stack Web Development",
+        "Frontend Development",
+        "Backend Development",
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "REST API Development",
+        "MongoDB",
+        "Firebase",
+        "Social Media Marketing",
+        "Social Media Management",
+        "Content Strategy",
+        "Brand Growth",
+        "Audience Engagement",
+        "AI Automation",
+        "Prompt Engineering",
+        "Portfolio Development",
+        "SEO"
+      ],
+      "knowsLanguage": ["en", "ur"],
+      "hasOccupation": [
+        {
+          "@type": "Occupation",
+          "name": "Full Stack Web Developer",
+          "skills": "React, Next.js, TypeScript, Node.js, Express.js, MongoDB, Firebase"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Data Analyst",
+          "skills": "SQL, Python, Excel, Power BI, Data Visualization"
+        },
+        {
+          "@type": "Occupation",
+          "name": "Social Media Marketing Specialist",
+          "skills": "Content Strategy, Audience Growth, Brand Engagement"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://yasirawaninfo-data.vercel.app/#website",
+      "url": "https://yasirawaninfo-data.vercel.app",
+      "name": "Muhammad Yasir | Data Analytics Portfolio",
+      "description": "Professional Data Analytics Portfolio of Muhammad Yasir featuring SQL, Python, Power BI, Excel, interactive dashboards, internship projects, certificates, GitHub repositories, and technical growth.",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://yasirawaninfo-data.vercel.app/#person" },
+      "author": { "@id": "https://yasirawaninfo-data.vercel.app/#person" },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://yasirawaninfo-data.vercel.app/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://yasirawaninfo-data.vercel.app/#profilepage",
+      "url": "https://yasirawaninfo-data.vercel.app",
+      "name": "Muhammad Yasir | Data Analytics Portfolio",
+      "isPartOf": { "@id": "https://yasirawaninfo-data.vercel.app/#website" },
+      "about": { "@id": "https://yasirawaninfo-data.vercel.app/#person" },
+      "primaryImageOfPage": "https://yasirawaninfo-data.vercel.app/profile.png"
+    }
   ]
 }
