@@ -1,0 +1,21 @@
+# ==========================================================
+# Robots.txt
+# Data Analyst Portfolio Website
+# Author: Muhammad Yasir
+# Author: YasirAwan4831
+# GitHub: https://github.com/YasirAwan4831
+# Portfolio: https://yasirawaninfo-data.vercel.app
+# ==========================================================
+
+User-agent: *
+
+Allow: /
+
+Disallow: /api/
+Disallow: /private/
+Disallow: /certificate/
+Disallow: /offer-letter/
+
+Host: https://yasirawaninfo-data.vercel.app
+
+Sitemap: https://yasirawaninfo-data.vercel.app/sitemap.xml

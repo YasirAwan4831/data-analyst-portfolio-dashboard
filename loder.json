@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Muhammad Yasir",
+  "alternateName": "YasirAwan4831",
+  "url": "https://yasirawaninfo-data.vercel.app",
+  "image": "https://yasirawaninfo-data.vercel.app/profile.png",
+  "jobTitle": "Data Analyst | Full Stack Web Developer | AI & Automation Enthusiast",
+  "description": "Data Analyst specializing in SQL, Python, Excel and Power BI. Full Stack Web Developer building modern web applications and interactive dashboards.",
+  "sameAs": [
+    "https://github.com/YasirAwan4831",
+    "https://www.linkedin.com/in/yasirawan4831",
+    "https://www.youtube.com/@YasirAwan4831"
+  ],
+  "knowsAbout": [
+    "SQL",
+    "Python",
+    "Power BI",
+    "Excel",
+    "Data Analytics",
+    "Business Intelligence",
+    "Dashboard Development",
+    "Next.js",
+    "TypeScript",
+    "React",
+    "MongoDB",
+    "Firebase",
+    "AI Automation"
+  ]
+}
