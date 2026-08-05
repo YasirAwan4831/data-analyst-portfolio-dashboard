@@ -84,3 +84,59 @@ input[type="password"]:focus {
   border-color: #059669;
   box-shadow: 0 0 0 3px rgba(5, 150, 105, 0.15);
 }
+
+/* Custom cursor */
+body {
+  cursor: none;
+}
+
+.custom-cursor-dot,
+.custom-cursor-ring {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate3d(-50%, -50%, 0);
+  transform-origin: center;
+  transition: transform 0.15s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.custom-cursor-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background: var(--primary);
+  box-shadow: 0 0 0 6px rgba(5, 150, 105, 0.16);
+  will-change: transform;
+}
+
+.custom-cursor-ring {
+  width: 34px;
+  height: 34px;
+  border-radius: 9999px;
+  border: 1px solid rgba(5, 150, 105, 0.35);
+  opacity: 0.92;
+  will-change: transform, width, height, border-color;
+}
+
+.cursor-hover-active.custom-cursor-ring {
+  width: 48px;
+  height: 48px;
+  border-color: rgba(5, 150, 105, 0.55);
+}
+
+.cursor-hover-active.custom-cursor-dot {
+  box-shadow: 0 0 0 10px rgba(5, 150, 105, 0.12);
+}
+
+@media (hover: none), (pointer: coarse) {
+  body {
+    cursor: auto;
+  }
+
+  .custom-cursor-dot,
+  .custom-cursor-ring {
+    display: none;
+  }
+}

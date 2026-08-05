@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import CustomCursor from "./components/CustomCursor";
 
 export const metadata: Metadata = {
   title: "Muhammad Yasir | Data Analytics Portfolio",
@@ -26,7 +27,10 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-white text-gray-900 antialiased">{children}</body>
+      <body className="bg-white text-gray-900 antialiased">
+        <CustomCursor />
+        {children}
+      </body>
     </html>
   );
 }
