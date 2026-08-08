@@ -147,7 +147,7 @@ flowchart TD
     E --> F{🔒 Certificate Section}
     F -->|Wrong Password| G[❌ Error shown]
     G --> F
-    F -->|Correct Password\nLogicStack2026| H[✅ Document Unlocked]
+    F -->|Correct Password\n| H[✅ Document Unlocked]
     H --> I[📧 Contact Section\nSocial links + Resume]
     I --> J[🌐 Footer\nNavigation + Copyright]
 ```
@@ -204,7 +204,7 @@ An alternating timeline layout showing 8 real challenges faced during the intern
 <details>
 <summary><strong>🔒 Certificate Section</strong></summary>
 
-Two document cards — Internship Certificate and Offer Letter. Each shows a lock icon and "View" button. Clicking opens a password modal; entering the correct password (`LogicStack2026`) unlocks the document viewer which displays the PDF from `/public/`.
+Two document cards — Internship Certificate and Offer Letter. Each shows a lock icon and "View" button. Clicking opens a password modal; entering the correct password (`For Password Contact Yasir `) unlocks the document viewer which displays the PDF from `/public/`.
 
 </details>
 
